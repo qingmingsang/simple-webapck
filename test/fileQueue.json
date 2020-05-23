@@ -1,0 +1,21 @@
+[
+	{
+		"fileName": "D:\\Users\\ccfu\\Desktop\\123\\123\\webpack\\1\\target\\index.js",
+		"dependence": [
+			"./test"
+		],
+		"code": "\"use strict\";\n\nvar _test = _interopRequireDefault(require(\"./test\"));\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nconsole.log(_test[\"default\"]);"
+	},
+	{
+		"fileName": "./test",
+		"dependence": [
+			"./message"
+		],
+		"code": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = void 0;\n\nvar _message = _interopRequireDefault(require(\"./message\"));\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nvar a = 'hello' + _message[\"default\"];\nvar _default = a;\nexports[\"default\"] = _default;"
+	},
+	{
+		"fileName": "./message",
+		"dependence": [],
+		"code": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = void 0;\nvar b = 'world';\nvar _default = b;\nexports[\"default\"] = _default;"
+	}
+]

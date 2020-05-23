@@ -1,0 +1,7 @@
+{
+	"fileName": "D:\\Users\\ccfu\\Desktop\\123\\123\\webpack\\1\\target\\index.js",
+	"dependence": [
+		"./test"
+	],
+	"code": "\"use strict\";\n\nvar _test = _interopRequireDefault(require(\"./test\"));\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nconsole.log(_test[\"default\"]);"
+}
